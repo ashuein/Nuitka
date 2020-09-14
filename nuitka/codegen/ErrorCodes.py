@@ -307,6 +307,7 @@ local variable '%s' referenced before assignment""",
         )
 
 
+# TODO: Get rid of this function entirely.
 def getNameReferenceErrorCode(variable_name, condition, emit, context):
     helper_code = "FORMAT_NAME_ERROR"
 
